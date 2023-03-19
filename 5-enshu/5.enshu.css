@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0; /*上下の空白20*/
+  text-align: center; /*中央揃え*/
+}
+
+.nav-list {
+  text-align: center; /*行揃えを指定して真ん中揃え*/
+  padding: 15px 0;
+  margin: 0 auto; /*上下0の横がオートで中央寄せ*/
+  border-top: 1px solid #848282; /*ヘッダーの下の線の太さと色*/
+  border-bottom: 1px solid #848282; /*ヘッダーの下の線の太さと色*/
+}
+
+.nav-list-item {
+  list-style: none; /*箇条書きリスト行頭指定の黒丸削除*/
+  display: inline-block; /*表示形式指定の横並び*/
+  margin: 0 20px;
+}
+
+.main {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;  /*横並び*/
+  flex-wrap: wrap; /*flex-wrapプロパティーが単一行か折り返すか→warp値が折り返す*/
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.box5 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.box6 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.box7 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.box8 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.box9 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.box10 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.box11 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.box12 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px; /*上下の中央揃え*/
+  background-color: #848282;
+}
+
+
+.footer-text {
+  color: #fff;
+}
